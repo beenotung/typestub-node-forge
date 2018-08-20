@@ -1,0 +1,17 @@
+{
+  "name": "typestub-node-forge",
+  "version": "0.0.1",
+  "description": "The type definition for node-forge",
+  "types": "index.d.ts",
+  "keywords": [
+    "node-forge",
+    "types",
+    "typestub"
+  ],
+  "author": "DefinitelyTyped",
+  "maintainer": "Beeno Tung",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "node-forge": "^0.7.6"
+  }
+}
