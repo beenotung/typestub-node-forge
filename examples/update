@@ -1,0 +1,3 @@
+#!/bin/bash
+yarn add ../
+rm -rf node_modules/typestub-node-forge/examples

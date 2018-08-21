@@ -90,7 +90,7 @@ declare module "node-forge" {
                     message: NativeBuffer | string,
                     encoding: 'binary' | 'utf8'
                 }
-                | { md: MessageDigest }
+                | { md: md.MessageDigest }
 
             namespace constants {
                 const PUBLIC_KEY_BYTE_LENGTH = 32;
@@ -115,7 +115,7 @@ declare module "node-forge" {
                 encoding: 'binary' | 'utf8'
             } | {
                 privateKey: NativeBuffer,
-                md: MessageDigest
+                md: md.MessageDigest
             }): NativeBuffer;
 
             function verify(options: {
